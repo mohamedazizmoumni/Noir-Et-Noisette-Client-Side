@@ -1,13 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@300;400&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #F5E8C7; /* Cream background as default */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Comment out or remove invalid image references if they exist */
+/*
+.bg-choco-bg {
+  background-image: url('/assets/choco-bg.jpg');
 }
+.bg-choc {
+  background-image: url('/assets/choc.jpg');
+}
+.bg-choco {
+  background-image: url('/assets/choco.jpg');
+}
+.bg-Choco {
+  background-image: url('/assets/Choco.jpg');
+}
+.bg-Choco-plain {
+  background-image: url('/assets/Choco');
+}
+.bg-empty {
+  background-image: url('/assets/');
+}
+.bg-Choco-dot {
+  background-image: url('/assets/Choco.');
+}
+*/
